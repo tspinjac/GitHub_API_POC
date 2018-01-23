@@ -1,0 +1,29 @@
+/* Custom minimum css by T.*/
+
+
+body {
+	font-family: monospace;
+	font-size: 1.2em;
+	position: relative;
+}
+
+#container {
+	position: fixed;
+    bottom: 10px;
+    right: 10px;
+  
+
+}
+
+li {
+	margin:10px;
+	border-bottom: 1px solid black;
+}
+
+li:hover {
+	background-color: #bfbdbd;
+}
+
+a { 
+	text-decoration: none; 
+ }
