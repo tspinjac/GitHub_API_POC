@@ -58,6 +58,20 @@ fetch('https://api.github.com/users?page=2&per_page=100') //30 je default...
                                 
                 console.log(pod);
                 var pod = localStorage.getItem('');
+                
+
+                //var retrievedObject = localStorage.getItem('data');
+                //console.log(retrievedObject);
+
+                //console.log('retrievedObject: ', JSON.parse(retrievedObject))
+
+                //var listOfThingsToDo = document.getElementById("tab").innerHTML;
+                //localStorage["users2"] = listOfThingsToDo;
+
+
+                /* END of LOCAL STORAGE*/
+
+
             });
         }
     )
@@ -67,6 +81,6 @@ fetch('https://api.github.com/users?page=2&per_page=100') //30 je default...
 
 }//KRAAAJJJ!!
 
-function mojafunkcija(parametar){
+function mojafunkcija( parametar){
 localStorage.setItem(parametar, parametar);
 }
